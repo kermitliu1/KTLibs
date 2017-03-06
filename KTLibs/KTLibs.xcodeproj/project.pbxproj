@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E406B741E6D0CCA007D1127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B731E6D0CCA007D1127 /* main.m */; };
+		6E406B771E6D0CCA007D1127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B761E6D0CCA007D1127 /* AppDelegate.m */; };
+		6E406B7A1E6D0CCA007D1127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B791E6D0CCA007D1127 /* ViewController.m */; };
+		6E406B7D1E6D0CCA007D1127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E406B7B1E6D0CCA007D1127 /* Main.storyboard */; };
+		6E406B7F1E6D0CCA007D1127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E406B7E1E6D0CCA007D1127 /* Assets.xcassets */; };
+		6E406B821E6D0CCA007D1127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E406B801E6D0CCA007D1127 /* LaunchScreen.storyboard */; };
+		6E406B8D1E6D0CCA007D1127 /* KTLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B8C1E6D0CCA007D1127 /* KTLibsTests.m */; };
+		6E406B981E6D0CCA007D1127 /* KTLibsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B971E6D0CCA007D1127 /* KTLibsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E406B891E6D0CCA007D1127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E406B671E6D0CCA007D1127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E406B6E1E6D0CCA007D1127;
+			remoteInfo = KTLibs;
+		};
+		6E406B941E6D0CCA007D1127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E406B671E6D0CCA007D1127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E406B6E1E6D0CCA007D1127;
+			remoteInfo = KTLibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E406B6F1E6D0CCA007D1127 /* KTLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E406B731E6D0CCA007D1127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E406B751E6D0CCA007D1127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E406B761E6D0CCA007D1127 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E406B781E6D0CCA007D1127 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E406B791E6D0CCA007D1127 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E406B7C1E6D0CCA007D1127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E406B7E1E6D0CCA007D1127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E406B811E6D0CCA007D1127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E406B831E6D0CCA007D1127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E406B881E6D0CCA007D1127 /* KTLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E406B8C1E6D0CCA007D1127 /* KTLibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTLibsTests.m; sourceTree = "<group>"; };
+		6E406B8E1E6D0CCA007D1127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E406B931E6D0CCA007D1127 /* KTLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E406B971E6D0CCA007D1127 /* KTLibsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTLibsUITests.m; sourceTree = "<group>"; };
+		6E406B991E6D0CCA007D1127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E406B6C1E6D0CCA007D1127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B851E6D0CCA007D1127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B901E6D0CCA007D1127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E406B661E6D0CCA007D1127 = {
+			isa = PBXGroup;
+			children = (
+				6E406B711E6D0CCA007D1127 /* KTLibs */,
+				6E406B8B1E6D0CCA007D1127 /* KTLibsTests */,
+				6E406B961E6D0CCA007D1127 /* KTLibsUITests */,
+				6E406B701E6D0CCA007D1127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E406B701E6D0CCA007D1127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E406B6F1E6D0CCA007D1127 /* KTLibs.app */,
+				6E406B881E6D0CCA007D1127 /* KTLibsTests.xctest */,
+				6E406B931E6D0CCA007D1127 /* KTLibsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E406B711E6D0CCA007D1127 /* KTLibs */ = {
+			isa = PBXGroup;
+			children = (
+				6E406B751E6D0CCA007D1127 /* AppDelegate.h */,
+				6E406B761E6D0CCA007D1127 /* AppDelegate.m */,
+				6E406B781E6D0CCA007D1127 /* ViewController.h */,
+				6E406B791E6D0CCA007D1127 /* ViewController.m */,
+				6E406B7B1E6D0CCA007D1127 /* Main.storyboard */,
+				6E406B7E1E6D0CCA007D1127 /* Assets.xcassets */,
+				6E406B801E6D0CCA007D1127 /* LaunchScreen.storyboard */,
+				6E406B831E6D0CCA007D1127 /* Info.plist */,
+				6E406B721E6D0CCA007D1127 /* Supporting Files */,
+			);
+			path = KTLibs;
+			sourceTree = "<group>";
+		};
+		6E406B721E6D0CCA007D1127 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E406B731E6D0CCA007D1127 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E406B8B1E6D0CCA007D1127 /* KTLibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E406B8C1E6D0CCA007D1127 /* KTLibsTests.m */,
+				6E406B8E1E6D0CCA007D1127 /* Info.plist */,
+			);
+			path = KTLibsTests;
+			sourceTree = "<group>";
+		};
+		6E406B961E6D0CCA007D1127 /* KTLibsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E406B971E6D0CCA007D1127 /* KTLibsUITests.m */,
+				6E406B991E6D0CCA007D1127 /* Info.plist */,
+			);
+			path = KTLibsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E406B6E1E6D0CCA007D1127 /* KTLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E406B9C1E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibs" */;
+			buildPhases = (
+				6E406B6B1E6D0CCA007D1127 /* Sources */,
+				6E406B6C1E6D0CCA007D1127 /* Frameworks */,
+				6E406B6D1E6D0CCA007D1127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTLibs;
+			productName = KTLibs;
+			productReference = 6E406B6F1E6D0CCA007D1127 /* KTLibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E406B871E6D0CCA007D1127 /* KTLibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E406B9F1E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsTests" */;
+			buildPhases = (
+				6E406B841E6D0CCA007D1127 /* Sources */,
+				6E406B851E6D0CCA007D1127 /* Frameworks */,
+				6E406B861E6D0CCA007D1127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E406B8A1E6D0CCA007D1127 /* PBXTargetDependency */,
+			);
+			name = KTLibsTests;
+			productName = KTLibsTests;
+			productReference = 6E406B881E6D0CCA007D1127 /* KTLibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E406B921E6D0CCA007D1127 /* KTLibsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E406BA21E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsUITests" */;
+			buildPhases = (
+				6E406B8F1E6D0CCA007D1127 /* Sources */,
+				6E406B901E6D0CCA007D1127 /* Frameworks */,
+				6E406B911E6D0CCA007D1127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E406B951E6D0CCA007D1127 /* PBXTargetDependency */,
+			);
+			name = KTLibsUITests;
+			productName = KTLibsUITests;
+			productReference = 6E406B931E6D0CCA007D1127 /* KTLibsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E406B671E6D0CCA007D1127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KermitLiu;
+				TargetAttributes = {
+					6E406B6E1E6D0CCA007D1127 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6E406B871E6D0CCA007D1127 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E406B6E1E6D0CCA007D1127;
+					};
+					6E406B921E6D0CCA007D1127 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E406B6E1E6D0CCA007D1127;
+					};
+				};
+			};
+			buildConfigurationList = 6E406B6A1E6D0CCA007D1127 /* Build configuration list for PBXProject "KTLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E406B661E6D0CCA007D1127;
+			productRefGroup = 6E406B701E6D0CCA007D1127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E406B6E1E6D0CCA007D1127 /* KTLibs */,
+				6E406B871E6D0CCA007D1127 /* KTLibsTests */,
+				6E406B921E6D0CCA007D1127 /* KTLibsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E406B6D1E6D0CCA007D1127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E406B821E6D0CCA007D1127 /* LaunchScreen.storyboard in Resources */,
+				6E406B7F1E6D0CCA007D1127 /* Assets.xcassets in Resources */,
+				6E406B7D1E6D0CCA007D1127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B861E6D0CCA007D1127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B911E6D0CCA007D1127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E406B6B1E6D0CCA007D1127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E406B7A1E6D0CCA007D1127 /* ViewController.m in Sources */,
+				6E406B771E6D0CCA007D1127 /* AppDelegate.m in Sources */,
+				6E406B741E6D0CCA007D1127 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B841E6D0CCA007D1127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E406B8D1E6D0CCA007D1127 /* KTLibsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E406B8F1E6D0CCA007D1127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E406B981E6D0CCA007D1127 /* KTLibsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E406B8A1E6D0CCA007D1127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E406B6E1E6D0CCA007D1127 /* KTLibs */;
+			targetProxy = 6E406B891E6D0CCA007D1127 /* PBXContainerItemProxy */;
+		};
+		6E406B951E6D0CCA007D1127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E406B6E1E6D0CCA007D1127 /* KTLibs */;
+			targetProxy = 6E406B941E6D0CCA007D1127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E406B7B1E6D0CCA007D1127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E406B7C1E6D0CCA007D1127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E406B801E6D0CCA007D1127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E406B811E6D0CCA007D1127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E406B9A1E6D0CCA007D1127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E406B9B1E6D0CCA007D1127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E406B9D1E6D0CCA007D1127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KTLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E406B9E1E6D0CCA007D1127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KTLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E406BA01E6D0CCA007D1127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTLibs.app/KTLibs";
+			};
+			name = Debug;
+		};
+		6E406BA11E6D0CCA007D1127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTLibs.app/KTLibs";
+			};
+			name = Release;
+		};
+		6E406BA31E6D0CCA007D1127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KTLibsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTLibs;
+			};
+			name = Debug;
+		};
+		6E406BA41E6D0CCA007D1127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KTLibsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTLibs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E406B6A1E6D0CCA007D1127 /* Build configuration list for PBXProject "KTLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E406B9A1E6D0CCA007D1127 /* Debug */,
+				6E406B9B1E6D0CCA007D1127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E406B9C1E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E406B9D1E6D0CCA007D1127 /* Debug */,
+				6E406B9E1E6D0CCA007D1127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E406B9F1E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E406BA01E6D0CCA007D1127 /* Debug */,
+				6E406BA11E6D0CCA007D1127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E406BA21E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E406BA31E6D0CCA007D1127 /* Debug */,
+				6E406BA41E6D0CCA007D1127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E406B671E6D0CCA007D1127 /* Project object */;
+}
