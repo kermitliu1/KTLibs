@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "KTDatePickerView.h"
 
 @interface ViewController ()
+{
+    KTDatePickerView * _picker;
+}
 
 @end
 
@@ -16,7 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _picker = [[KTDatePickerView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-240, SCREEN_WIDTH, 240)];
+    _picker.showTimeType = MonthDayHour_12Minute;
+    [self.view addSubview:_picker];
 }
 
 

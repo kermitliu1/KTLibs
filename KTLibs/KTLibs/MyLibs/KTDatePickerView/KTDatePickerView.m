@@ -25,12 +25,14 @@
     if (self) {
         
         _topBGView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+        _topBGView.backgroundColor = [UIColor grayColor];
         [self addSubview:_topBGView];
         
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         _cancelBtn.frame = CGRectMake(7, 0, 44, 44);
         [_cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
         _cancelBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_cancelBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_cancelBtn addTarget:self action:@selector(cancelBtnClicked) forControlEvents:UIControlEventTouchUpInside];
         [_topBGView addSubview:_cancelBtn];
         
@@ -38,12 +40,13 @@
         _okBtn.frame = CGRectMake(SCREEN_WIDTH - 7 - 44, 0, 44, 44);
         [_okBtn setTitle:@"确定" forState:UIControlStateNormal];
         _okBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_okBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_okBtn addTarget:self action:@selector(okBtnClicked) forControlEvents:UIControlEventTouchUpInside];
         [_topBGView addSubview:_okBtn];
         
         _showDateLabel = [[UILabel alloc] initWithFrame:CGRectMake(55, 0, SCREEN_WIDTH-110, 44)];
         _showDateLabel.backgroundColor = [UIColor clearColor];
-        _showDateLabel.textColor = [UIColor colorWithHexString:@"22242b"];
+        _showDateLabel.textColor = [UIColor whiteColor];
         _showDateLabel.font = [UIFont systemFontOfSize:14];
         _showDateLabel.textAlignment = NSTextAlignmentCenter;
         [self addSubview:_showDateLabel];
@@ -60,9 +63,9 @@
 }
 
 - (void)setShowTimeType:(ShowTimeType)showTimeType {
-    self.showTimeType = showTimeType;
-    switch (self.showTimeType) {
-        case 1:
+    _showTimeType = showTimeType;
+    switch (showTimeType) {
+        case 0:
             _datePicker.datePickerMode = UIDatePickerModeDate;
             break;
         default:
@@ -80,18 +83,18 @@
 - (void)setMaximumDate:(NSDate *)maximumDate {
     _datePicker.maximumDate = maximumDate;
 }
-- (void)setTopBGColorHexStr:(NSString *)topBGColorHexStr {
-    _topBGView.backgroundColor = [UIColor colorWithHexString:topBGColorHexStr];
+- (void)setTopBGColor:(UIColor *)topBGColor {
+    _topBGView.backgroundColor = topBGColor;
 }
-- (void)setCancelBtnTitleColorHexStr:(NSString *)cancelBtnTitleColorHexStr {
-    [_cancelBtn setTitleColor:[UIColor colorWithHexString:cancelBtnTitleColorHexStr]
-                     forState:UIControlStateNormal];
+- (void)setTopTimeLabelColor:(UIColor *)topTimeLabelColor {
+    _showDateLabel.textColor = topTimeLabelColor;
 }
-- (void)setOkBtnTitleColorHexStr:(NSString *)okBtnTitleColorHexStr {
-    [_okBtn setTitleColor:[UIColor colorWithHexString:okBtnTitleColorHexStr]
-                 forState:UIControlStateNormal];
+- (void)setCancelBtnTitleColor:(UIColor *)cancelBtnTitleColor {
+    [_cancelBtn setTitleColor:cancelBtnTitleColor forState:UIControlStateNormal];
 }
-
+- (void)setOkBtnTitleColor:(UIColor *)okBtnTitleColor {
+    [_okBtn setTitleColor:okBtnTitleColor forState:UIControlStateNormal];
+}
 
 - (void)datePickerValueChanged:(UIDatePicker *)sender {
     
@@ -103,25 +106,26 @@
     
     NSDateFormatter * selectedDateFormatter = [[NSDateFormatter alloc] init];
     switch (self.showTimeType) {
-        case 1:
+        case 0:
             selectedDateFormatter.dateFormat = @"YYYY-MM-dd";
             break;
-        case 2:
+        case 1:
             selectedDateFormatter.dateFormat = @"YYYY-MM-dd hh:mm";
             break;
-        case 3:
+        case 2:
             selectedDateFormatter.dateFormat = @"YYYY-MM-dd HH:mm";
             break;
-        case 4:
+        case 3:
             selectedDateFormatter.dateFormat = @"MM-dd hh:mm";
             break;
-        case 5:
+        case 4:
             selectedDateFormatter.dateFormat = @"MM-dd HH:mm";
             break;
             
         default:
             break;
     }
+    KTLog(@"%@",[selectedDateFormatter stringFromDate:date]);
     return [selectedDateFormatter stringFromDate:date];
 }
 

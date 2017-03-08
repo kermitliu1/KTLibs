@@ -16,12 +16,20 @@
 
 @end
 
+//typedef enum {
+//    YearMonthDay = 1,                   // 年-月-日
+//    YearMonthDayHour_12Minute = 2,      // 年-月-日 1:00
+//    YearMonthDayHour_24Minute = 3,      // 年-月-日 13:00
+//    MonthDayHour_12Minute = 4,          // 月-日 1:00
+//    MonthDayHour_24Minute = 5,
+//} ShowTimeType;
+
 typedef NS_ENUM(NSInteger,ShowTimeType){
-    YearMonthDay = 1,                   // 年-月-日
-    YearMonthDayHour_12Minute = 2,      // 年-月-日 1:00
-    YearMonthDayHour_24Minute = 3,      // 年-月-日 13:00
-    MonthDayHour_12Minute = 4,          // 月-日 1:00
-    MonthDayHour_24Minute = 5,          // 月-日 13:00
+    YearMonthDay = 0,                   // 年-月-日
+    YearMonthDayHour_12Minute = 1,      // 年-月-日 1:00
+    YearMonthDayHour_24Minute = 2,      // 年-月-日 13:00
+    MonthDayHour_12Minute = 3,          // 月-日 1:00
+    MonthDayHour_24Minute = 4,          // 月-日 13:00
     
 };
 
@@ -35,9 +43,10 @@ typedef NS_ENUM(NSInteger,ShowTimeType){
 @property (nonatomic, strong) NSDate * minimumDate;
 @property (nonatomic, strong) NSDate * maximumDate;
 
-@property (nonatomic, copy) NSString * topBGColorHexStr;
-@property (nonatomic, copy) NSString * cancelBtnTitleColorHexStr;
-@property (nonatomic, copy) NSString * okBtnTitleColorHexStr ;
+@property (nonatomic, strong) UIColor * topBGColor;
+@property (nonatomic, strong) UIColor * topTimeLabelColor;
+@property (nonatomic, strong) UIColor * cancelBtnTitleColor;
+@property (nonatomic, strong) UIColor * okBtnTitleColor;
 
 
 /**
