@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Crop Photo View Controller-->
+        <scene sceneID="GM0-bs-hTa">
+            <objects>
+                <viewController storyboardIdentifier="KTCropPhotoViewController" id="kaJ-56-KiL" customClass="KTCropPhotoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="txf-hj-drm"/>
+                        <viewControllerLayoutGuide type="bottom" id="mkS-Ek-MYh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dpg-Nf-9ne">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IvO-a4-WaY">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="4CA-IJ-cBS"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="I61-sC-1DA">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="1" minY="1" maxX="1" maxY="1"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CELL" id="1eD-u8-lj4">
+                                        <rect key="frame" x="1" y="1" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic_default_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="1t0-ob-0uB">
+                                                    <gestureRecognizers/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="1t0-ob-0uB" firstAttribute="leading" secondItem="1eD-u8-lj4" secondAttribute="leading" id="0y3-9S-a97"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="1t0-ob-0uB" secondAttribute="trailing" id="6Kg-Nu-hDi"/>
+                                            <constraint firstAttribute="trailing" secondItem="1t0-ob-0uB" secondAttribute="trailing" id="EF6-11-j7N"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="1t0-ob-0uB" secondAttribute="bottom" constant="-7" id="Gca-hj-IKe"/>
+                                            <constraint firstItem="1t0-ob-0uB" firstAttribute="top" secondItem="1eD-u8-lj4" secondAttribute="top" id="JdV-B9-GBK"/>
+                                            <constraint firstItem="1t0-ob-0uB" firstAttribute="leading" secondItem="1eD-u8-lj4" secondAttribute="leadingMargin" constant="-7" id="S58-SL-64p"/>
+                                            <constraint firstItem="1t0-ob-0uB" firstAttribute="top" secondItem="1eD-u8-lj4" secondAttribute="topMargin" constant="-7" id="g1J-83-W8J"/>
+                                            <constraint firstAttribute="bottom" secondItem="1t0-ob-0uB" secondAttribute="bottom" id="hyv-08-QBM"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="6Kg-Nu-hDi"/>
+                                                <exclude reference="Gca-hj-IKe"/>
+                                                <exclude reference="S58-SL-64p"/>
+                                                <exclude reference="g1J-83-W8J"/>
+                                            </mask>
+                                        </variation>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IvO-a4-WaY" secondAttribute="trailing" id="6fi-bX-YeJ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IvO-a4-WaY" secondAttribute="bottom" id="7iu-K5-2Md"/>
+                            <constraint firstItem="IvO-a4-WaY" firstAttribute="leading" secondItem="dpg-Nf-9ne" secondAttribute="leadingMargin" id="8TI-vx-Xr8"/>
+                            <constraint firstItem="IvO-a4-WaY" firstAttribute="leading" secondItem="dpg-Nf-9ne" secondAttribute="leading" id="8Tm-PU-Eaf"/>
+                            <constraint firstAttribute="rightMargin" secondItem="IvO-a4-WaY" secondAttribute="right" id="vIf-mG-wuK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8TI-vx-Xr8"/>
+                                <exclude reference="vIf-mG-wuK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="IvO-a4-WaY" id="EC3-m8-g6h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtx-3p-R11" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="449"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pic_default_small.png" width="125" height="125"/>
+    </resources>
+</document>

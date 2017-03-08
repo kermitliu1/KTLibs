@@ -8,6 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		19005D8EA0BFAF0FB49C425C /* libPods-KTLibs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */; };
+		6E1C083A1E700C15002C739F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08391E700C15002C739F /* UIColor+Hex.m */; };
+		6E1C083D1E700C54002C739F /* KTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083C1E700C54002C739F /* KTUtils.m */; };
+		6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083F1E700CB6002C739F /* KTCropPhotoViewController.m */; };
+		6E1C08681E700CB6002C739F /* KTPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08411E700CB6002C739F /* KTPhotoHelper.m */; };
+		6E1C08691E700CB6002C739F /* PECropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08451E700CB6002C739F /* PECropRectView.m */; };
+		6E1C086A1E700CB6002C739F /* PECropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08471E700CB6002C739F /* PECropView.m */; };
+		6E1C086B1E700CB6002C739F /* PECropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08491E700CB6002C739F /* PECropViewController.m */; };
+		6E1C086C1E700CB6002C739F /* PEResizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C084B1E700CB6002C739F /* PEResizeControl.m */; };
+		6E1C086D1E700CB6002C739F /* UIImage+PECrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C084D1E700CB6002C739F /* UIImage+PECrop.m */; };
+		6E1C086E1E700CB6002C739F /* PEPhotoCropEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C084F1E700CB6002C739F /* PEPhotoCropEditor.bundle */; };
+		6E1C086F1E700CB6002C739F /* PhotoHelper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C08501E700CB6002C739F /* PhotoHelper.storyboard */; };
+		6E1C08701E700CB6002C739F /* QBAssetsCollectionCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08531E700CB6002C739F /* QBAssetsCollectionCheckmarkView.m */; };
+		6E1C08711E700CB6002C739F /* QBAssetsCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08551E700CB6002C739F /* QBAssetsCollectionFooterView.m */; };
+		6E1C08721E700CB6002C739F /* QBAssetsCollectionOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08571E700CB6002C739F /* QBAssetsCollectionOverlayView.m */; };
+		6E1C08731E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08591E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.m */; };
+		6E1C08741E700CB6002C739F /* QBAssetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C085B1E700CB6002C739F /* QBAssetsCollectionViewCell.m */; };
+		6E1C08751E700CB6002C739F /* QBAssetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C085D1E700CB6002C739F /* QBAssetsCollectionViewController.m */; };
+		6E1C08761E700CB6002C739F /* QBAssetsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C085F1E700CB6002C739F /* QBAssetsCollectionViewLayout.m */; };
+		6E1C08771E700CB6002C739F /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08611E700CB6002C739F /* QBImagePickerController.m */; };
+		6E1C08781E700CB6002C739F /* QBImagePickerController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C08621E700CB6002C739F /* QBImagePickerController.strings */; };
+		6E1C08791E700CB6002C739F /* QBImagePickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08641E700CB6002C739F /* QBImagePickerGroupCell.m */; };
+		6E1C087A1E700CB6002C739F /* QBImagePickerThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08661E700CB6002C739F /* QBImagePickerThumbnailView.m */; };
+		6E1C087D1E700D25002C739F /* NSObject+KTNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C087C1E700D25002C739F /* NSObject+KTNotificationObserver.m */; };
+		6E1C08801E700DA5002C739F /* KTAFNNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C087F1E700DA5002C739F /* KTAFNNetRequest.m */; };
+		6E1C08831E700E2F002C739F /* GetCGFloatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08821E700E2F002C739F /* GetCGFloatManager.m */; };
+		6E1C08871E700E90002C739F /* KTDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08861E700E90002C739F /* KTDatePickerView.m */; };
 		6E406B741E6D0CCA007D1127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B731E6D0CCA007D1127 /* main.m */; };
 		6E406B771E6D0CCA007D1127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B761E6D0CCA007D1127 /* AppDelegate.m */; };
 		6E406B7A1E6D0CCA007D1127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B791E6D0CCA007D1127 /* ViewController.m */; };
@@ -38,6 +64,58 @@
 /* Begin PBXFileReference section */
 		5E73957EC4A22CEF82BFC767 /* Pods-KTLibs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLibs.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTLibs/Pods-KTLibs.release.xcconfig"; sourceTree = "<group>"; };
 		651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTLibs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C08381E700C15002C739F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6E1C08391E700C15002C739F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6E1C083B1E700C54002C739F /* KTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtils.h; sourceTree = "<group>"; };
+		6E1C083C1E700C54002C739F /* KTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUtils.m; sourceTree = "<group>"; };
+		6E1C083E1E700CB6002C739F /* KTCropPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCropPhotoViewController.h; sourceTree = "<group>"; };
+		6E1C083F1E700CB6002C739F /* KTCropPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCropPhotoViewController.m; sourceTree = "<group>"; };
+		6E1C08401E700CB6002C739F /* KTPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoHelper.h; sourceTree = "<group>"; };
+		6E1C08411E700CB6002C739F /* KTPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoHelper.m; sourceTree = "<group>"; };
+		6E1C08441E700CB6002C739F /* PECropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropRectView.h; sourceTree = "<group>"; };
+		6E1C08451E700CB6002C739F /* PECropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropRectView.m; sourceTree = "<group>"; };
+		6E1C08461E700CB6002C739F /* PECropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropView.h; sourceTree = "<group>"; };
+		6E1C08471E700CB6002C739F /* PECropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropView.m; sourceTree = "<group>"; };
+		6E1C08481E700CB6002C739F /* PECropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropViewController.h; sourceTree = "<group>"; };
+		6E1C08491E700CB6002C739F /* PECropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropViewController.m; sourceTree = "<group>"; };
+		6E1C084A1E700CB6002C739F /* PEResizeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEResizeControl.h; sourceTree = "<group>"; };
+		6E1C084B1E700CB6002C739F /* PEResizeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEResizeControl.m; sourceTree = "<group>"; };
+		6E1C084C1E700CB6002C739F /* UIImage+PECrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PECrop.h"; sourceTree = "<group>"; };
+		6E1C084D1E700CB6002C739F /* UIImage+PECrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PECrop.m"; sourceTree = "<group>"; };
+		6E1C084F1E700CB6002C739F /* PEPhotoCropEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPhotoCropEditor.bundle; sourceTree = "<group>"; };
+		6E1C08501E700CB6002C739F /* PhotoHelper.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoHelper.storyboard; sourceTree = "<group>"; };
+		6E1C08521E700CB6002C739F /* QBAssetsCollectionCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionCheckmarkView.h; sourceTree = "<group>"; };
+		6E1C08531E700CB6002C739F /* QBAssetsCollectionCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionCheckmarkView.m; sourceTree = "<group>"; };
+		6E1C08541E700CB6002C739F /* QBAssetsCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionFooterView.h; sourceTree = "<group>"; };
+		6E1C08551E700CB6002C739F /* QBAssetsCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionFooterView.m; sourceTree = "<group>"; };
+		6E1C08561E700CB6002C739F /* QBAssetsCollectionOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionOverlayView.h; sourceTree = "<group>"; };
+		6E1C08571E700CB6002C739F /* QBAssetsCollectionOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionOverlayView.m; sourceTree = "<group>"; };
+		6E1C08581E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionVideoIndicatorView.h; sourceTree = "<group>"; };
+		6E1C08591E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionVideoIndicatorView.m; sourceTree = "<group>"; };
+		6E1C085A1E700CB6002C739F /* QBAssetsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewCell.h; sourceTree = "<group>"; };
+		6E1C085B1E700CB6002C739F /* QBAssetsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewCell.m; sourceTree = "<group>"; };
+		6E1C085C1E700CB6002C739F /* QBAssetsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewController.h; sourceTree = "<group>"; };
+		6E1C085D1E700CB6002C739F /* QBAssetsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewController.m; sourceTree = "<group>"; };
+		6E1C085E1E700CB6002C739F /* QBAssetsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewLayout.h; sourceTree = "<group>"; };
+		6E1C085F1E700CB6002C739F /* QBAssetsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewLayout.m; sourceTree = "<group>"; };
+		6E1C08601E700CB6002C739F /* QBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerController.h; sourceTree = "<group>"; };
+		6E1C08611E700CB6002C739F /* QBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerController.m; sourceTree = "<group>"; };
+		6E1C08621E700CB6002C739F /* QBImagePickerController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = QBImagePickerController.strings; sourceTree = "<group>"; };
+		6E1C08631E700CB6002C739F /* QBImagePickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerGroupCell.h; sourceTree = "<group>"; };
+		6E1C08641E700CB6002C739F /* QBImagePickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerGroupCell.m; sourceTree = "<group>"; };
+		6E1C08651E700CB6002C739F /* QBImagePickerThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerThumbnailView.h; sourceTree = "<group>"; };
+		6E1C08661E700CB6002C739F /* QBImagePickerThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerThumbnailView.m; sourceTree = "<group>"; };
+		6E1C087B1E700D25002C739F /* NSObject+KTNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KTNotificationObserver.h"; sourceTree = "<group>"; };
+		6E1C087C1E700D25002C739F /* NSObject+KTNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KTNotificationObserver.m"; sourceTree = "<group>"; };
+		6E1C087E1E700DA5002C739F /* KTAFNNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTAFNNetRequest.h; sourceTree = "<group>"; };
+		6E1C087F1E700DA5002C739F /* KTAFNNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTAFNNetRequest.m; sourceTree = "<group>"; };
+		6E1C08811E700E2F002C739F /* GetCGFloatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCGFloatManager.h; sourceTree = "<group>"; };
+		6E1C08821E700E2F002C739F /* GetCGFloatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCGFloatManager.m; sourceTree = "<group>"; };
+		6E1C08851E700E90002C739F /* KTDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTDatePickerView.h; sourceTree = "<group>"; };
+		6E1C08861E700E90002C739F /* KTDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTDatePickerView.m; sourceTree = "<group>"; };
+		6E1C08881E700F00002C739F /* KTBasicConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBasicConfig.h; sourceTree = "<group>"; };
+		6E1C08891E700F5E002C739F /* KTLibs.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTLibs.pch; sourceTree = "<group>"; };
+		6E1C088A1E701042002C739F /* KTBasicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBasicHeader.h; sourceTree = "<group>"; };
 		6E406B6F1E6D0CCA007D1127 /* KTLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E406B731E6D0CCA007D1127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E406B751E6D0CCA007D1127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +170,150 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E1C08311E700B36002C739F /* MyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08841E700E77002C739F /* KTDatePickerView */,
+				6E1C08321E700BA6002C739F /* GetCGFloatManager */,
+				6E1C08331E700BA6002C739F /* KTAFNNetRequest */,
+				6E1C08341E700BA6002C739F /* KTNotificationObserver */,
+				6E1C08351E700BA6002C739F /* KTPhotoHelper */,
+				6E1C08361E700BA6002C739F /* KTUtils */,
+				6E1C08371E700BA6002C739F /* UIColor+Hex */,
+			);
+			path = MyLibs;
+			sourceTree = "<group>";
+		};
+		6E1C08321E700BA6002C739F /* GetCGFloatManager */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08811E700E2F002C739F /* GetCGFloatManager.h */,
+				6E1C08821E700E2F002C739F /* GetCGFloatManager.m */,
+			);
+			path = GetCGFloatManager;
+			sourceTree = "<group>";
+		};
+		6E1C08331E700BA6002C739F /* KTAFNNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C087E1E700DA5002C739F /* KTAFNNetRequest.h */,
+				6E1C087F1E700DA5002C739F /* KTAFNNetRequest.m */,
+			);
+			path = KTAFNNetRequest;
+			sourceTree = "<group>";
+		};
+		6E1C08341E700BA6002C739F /* KTNotificationObserver */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C087B1E700D25002C739F /* NSObject+KTNotificationObserver.h */,
+				6E1C087C1E700D25002C739F /* NSObject+KTNotificationObserver.m */,
+			);
+			path = KTNotificationObserver;
+			sourceTree = "<group>";
+		};
+		6E1C08351E700BA6002C739F /* KTPhotoHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08401E700CB6002C739F /* KTPhotoHelper.h */,
+				6E1C08411E700CB6002C739F /* KTPhotoHelper.m */,
+				6E1C083E1E700CB6002C739F /* KTCropPhotoViewController.h */,
+				6E1C083F1E700CB6002C739F /* KTCropPhotoViewController.m */,
+				6E1C08421E700CB6002C739F /* PEPhotoCrop */,
+				6E1C08501E700CB6002C739F /* PhotoHelper.storyboard */,
+				6E1C08511E700CB6002C739F /* QBImagePicker */,
+			);
+			path = KTPhotoHelper;
+			sourceTree = "<group>";
+		};
+		6E1C08361E700BA6002C739F /* KTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C083B1E700C54002C739F /* KTUtils.h */,
+				6E1C083C1E700C54002C739F /* KTUtils.m */,
+			);
+			path = KTUtils;
+			sourceTree = "<group>";
+		};
+		6E1C08371E700BA6002C739F /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08381E700C15002C739F /* UIColor+Hex.h */,
+				6E1C08391E700C15002C739F /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		6E1C08421E700CB6002C739F /* PEPhotoCrop */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08431E700CB6002C739F /* Lib */,
+				6E1C084E1E700CB6002C739F /* Resources */,
+			);
+			path = PEPhotoCrop;
+			sourceTree = "<group>";
+		};
+		6E1C08431E700CB6002C739F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08441E700CB6002C739F /* PECropRectView.h */,
+				6E1C08451E700CB6002C739F /* PECropRectView.m */,
+				6E1C08461E700CB6002C739F /* PECropView.h */,
+				6E1C08471E700CB6002C739F /* PECropView.m */,
+				6E1C08481E700CB6002C739F /* PECropViewController.h */,
+				6E1C08491E700CB6002C739F /* PECropViewController.m */,
+				6E1C084A1E700CB6002C739F /* PEResizeControl.h */,
+				6E1C084B1E700CB6002C739F /* PEResizeControl.m */,
+				6E1C084C1E700CB6002C739F /* UIImage+PECrop.h */,
+				6E1C084D1E700CB6002C739F /* UIImage+PECrop.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6E1C084E1E700CB6002C739F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C084F1E700CB6002C739F /* PEPhotoCropEditor.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E1C08511E700CB6002C739F /* QBImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08521E700CB6002C739F /* QBAssetsCollectionCheckmarkView.h */,
+				6E1C08531E700CB6002C739F /* QBAssetsCollectionCheckmarkView.m */,
+				6E1C08541E700CB6002C739F /* QBAssetsCollectionFooterView.h */,
+				6E1C08551E700CB6002C739F /* QBAssetsCollectionFooterView.m */,
+				6E1C08561E700CB6002C739F /* QBAssetsCollectionOverlayView.h */,
+				6E1C08571E700CB6002C739F /* QBAssetsCollectionOverlayView.m */,
+				6E1C08581E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.h */,
+				6E1C08591E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.m */,
+				6E1C085A1E700CB6002C739F /* QBAssetsCollectionViewCell.h */,
+				6E1C085B1E700CB6002C739F /* QBAssetsCollectionViewCell.m */,
+				6E1C085C1E700CB6002C739F /* QBAssetsCollectionViewController.h */,
+				6E1C085D1E700CB6002C739F /* QBAssetsCollectionViewController.m */,
+				6E1C085E1E700CB6002C739F /* QBAssetsCollectionViewLayout.h */,
+				6E1C085F1E700CB6002C739F /* QBAssetsCollectionViewLayout.m */,
+				6E1C08601E700CB6002C739F /* QBImagePickerController.h */,
+				6E1C08611E700CB6002C739F /* QBImagePickerController.m */,
+				6E1C08621E700CB6002C739F /* QBImagePickerController.strings */,
+				6E1C08631E700CB6002C739F /* QBImagePickerGroupCell.h */,
+				6E1C08641E700CB6002C739F /* QBImagePickerGroupCell.m */,
+				6E1C08651E700CB6002C739F /* QBImagePickerThumbnailView.h */,
+				6E1C08661E700CB6002C739F /* QBImagePickerThumbnailView.m */,
+			);
+			path = QBImagePicker;
+			sourceTree = "<group>";
+		};
+		6E1C08841E700E77002C739F /* KTDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C08851E700E90002C739F /* KTDatePickerView.h */,
+				6E1C08861E700E90002C739F /* KTDatePickerView.m */,
+			);
+			path = KTDatePickerView;
+			sourceTree = "<group>";
+		};
 		6E406B661E6D0CCA007D1127 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +339,10 @@
 		6E406B711E6D0CCA007D1127 /* KTLibs */ = {
 			isa = PBXGroup;
 			children = (
+				6E1C08891E700F5E002C739F /* KTLibs.pch */,
+				6E1C08881E700F00002C739F /* KTBasicConfig.h */,
+				6E1C088A1E701042002C739F /* KTBasicHeader.h */,
+				6E1C08311E700B36002C739F /* MyLibs */,
 				6E406B751E6D0CCA007D1127 /* AppDelegate.h */,
 				6E406B761E6D0CCA007D1127 /* AppDelegate.m */,
 				6E406B781E6D0CCA007D1127 /* ViewController.h */,
@@ -274,7 +500,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E406B821E6D0CCA007D1127 /* LaunchScreen.storyboard in Resources */,
+				6E1C08781E700CB6002C739F /* QBImagePickerController.strings in Resources */,
+				6E1C086F1E700CB6002C739F /* PhotoHelper.storyboard in Resources */,
 				6E406B7F1E6D0CCA007D1127 /* Assets.xcassets in Resources */,
+				6E1C086E1E700CB6002C739F /* PEPhotoCropEditor.bundle in Resources */,
 				6E406B7D1E6D0CCA007D1127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +578,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E406B7A1E6D0CCA007D1127 /* ViewController.m in Sources */,
+				6E1C08701E700CB6002C739F /* QBAssetsCollectionCheckmarkView.m in Sources */,
+				6E1C08741E700CB6002C739F /* QBAssetsCollectionViewCell.m in Sources */,
+				6E1C08791E700CB6002C739F /* QBImagePickerGroupCell.m in Sources */,
+				6E1C08731E700CB6002C739F /* QBAssetsCollectionVideoIndicatorView.m in Sources */,
+				6E1C08871E700E90002C739F /* KTDatePickerView.m in Sources */,
+				6E1C086B1E700CB6002C739F /* PECropViewController.m in Sources */,
+				6E1C08711E700CB6002C739F /* QBAssetsCollectionFooterView.m in Sources */,
+				6E1C08751E700CB6002C739F /* QBAssetsCollectionViewController.m in Sources */,
+				6E1C083D1E700C54002C739F /* KTUtils.m in Sources */,
+				6E1C08681E700CB6002C739F /* KTPhotoHelper.m in Sources */,
+				6E1C086D1E700CB6002C739F /* UIImage+PECrop.m in Sources */,
+				6E1C086C1E700CB6002C739F /* PEResizeControl.m in Sources */,
+				6E1C087D1E700D25002C739F /* NSObject+KTNotificationObserver.m in Sources */,
+				6E1C083A1E700C15002C739F /* UIColor+Hex.m in Sources */,
+				6E1C08761E700CB6002C739F /* QBAssetsCollectionViewLayout.m in Sources */,
 				6E406B771E6D0CCA007D1127 /* AppDelegate.m in Sources */,
+				6E1C08801E700DA5002C739F /* KTAFNNetRequest.m in Sources */,
+				6E1C086A1E700CB6002C739F /* PECropView.m in Sources */,
+				6E1C08831E700E2F002C739F /* GetCGFloatManager.m in Sources */,
+				6E1C087A1E700CB6002C739F /* QBImagePickerThumbnailView.m in Sources */,
+				6E1C08691E700CB6002C739F /* PECropRectView.m in Sources */,
+				6E1C08771E700CB6002C739F /* QBImagePickerController.m in Sources */,
+				6E1C08721E700CB6002C739F /* QBAssetsCollectionOverlayView.m in Sources */,
+				6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */,
 				6E406B741E6D0CCA007D1127 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,7 +753,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTLibs/KTLibs.pch";
 				INFOPLIST_FILE = KTLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +768,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTLibs/KTLibs.pch";
 				INFOPLIST_FILE = KTLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kermit.KTLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +842,7 @@
 				6E406B9E1E6D0CCA007D1127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E406B9F1E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +851,7 @@
 				6E406BA11E6D0CCA007D1127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E406BA21E6D0CCA007D1127 /* Build configuration list for PBXNativeTarget "KTLibsUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +860,7 @@
 				6E406BA41E6D0CCA007D1127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,34 @@
+//
+//  KTLibs.pch
+//  KTLibs
+//
+//  Created by KermitLiu on 2017/3/8.
+//  Copyright © 2017年 KermitLiu. All rights reserved.
+//
+
+#ifndef KTLibs_pch
+#define KTLibs_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+
+#warning "this project uses features only availability in iOS SDK 5.0 and later"
+
+#endif
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "KTBasicConfig.h"
+#import "KTBasicHeader.h"
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KTLibs_pch */
