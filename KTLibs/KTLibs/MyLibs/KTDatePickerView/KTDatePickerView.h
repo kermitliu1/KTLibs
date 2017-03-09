@@ -37,7 +37,9 @@ typedef NS_ENUM(NSInteger,ShowTimeType){
 
 @property (nonatomic, assign) id<KTDatePickerViewDelegate> delegate;
 
-
+/**
+ *  返回的时间类型
+ */
 @property (nonatomic, assign) ShowTimeType showTimeType;
 
 @property (nonatomic, strong) NSDate * minimumDate;
