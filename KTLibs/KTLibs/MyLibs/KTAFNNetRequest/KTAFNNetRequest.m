@@ -52,10 +52,14 @@
     [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
     }];
 }
 
@@ -65,10 +69,14 @@
     [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
     }];
     
 }
@@ -79,11 +87,15 @@
     [manager POST:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
         
     }];
     
@@ -95,11 +107,14 @@
     [manager POST:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
         
     }];
 }
@@ -112,17 +127,22 @@
         [formData appendPartWithFileData:filedata name:name fileName:filename mimeType:mimeType];
         
     } progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-        progress(uploadProgress);
+        if (progress) {
+            progress(uploadProgress);
+        }
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
+        
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
         
     }];
 }
@@ -136,16 +156,22 @@
         
     } progress:^(NSProgress * _Nonnull uploadProgress) {
         
-        progress(uploadProgress);
+        if (progress) {
+            progress(uploadProgress);
+        }
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         id dic = [KTAFNNetRequest responseConfiguration:responseObject];
-        success(task,dic);
+        if (success) {
+            success(task,dic);
+        }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-        failure(task,error);
+        if (failure) {
+            failure(task,error);
+        }
         
     }];
 }
@@ -159,7 +185,9 @@
     
     NSURLSessionDownloadTask *downloadtask = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
         
-        progress(downloadProgress);
+        if (progress) {
+            progress(downloadProgress);
+        }
         
     } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
         
@@ -168,9 +196,14 @@
     } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
         
         if (error) {
-            failure(error);
+            if (failure) {
+                failure(error);
+            }
+            
         }else{
-            success(response,filePath);
+            if (success) {
+                success(response,filePath);
+            }
         }
     }];
     
