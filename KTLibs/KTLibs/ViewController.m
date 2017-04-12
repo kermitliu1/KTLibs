@@ -24,6 +24,11 @@
     _picker = [[KTDatePickerView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-240, SCREEN_WIDTH, 240)];
     _picker.showTimeType = MonthDayHour_12Minute;
     [self.view addSubview:_picker];
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn tapWithEvent:UIControlEventTouchUpInside withBlock:^(UIButton *sender) {
+        // func
+    }];
 }
 
 

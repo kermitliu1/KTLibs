@@ -42,6 +42,7 @@
 		6E406B821E6D0CCA007D1127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E406B801E6D0CCA007D1127 /* LaunchScreen.storyboard */; };
 		6E406B8D1E6D0CCA007D1127 /* KTLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B8C1E6D0CCA007D1127 /* KTLibsTests.m */; };
 		6E406B981E6D0CCA007D1127 /* KTLibsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B971E6D0CCA007D1127 /* KTLibsUITests.m */; };
+		6EE824361E9E185300F006ED /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE824351E9E185300F006ED /* UIButton+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,8 @@
 		6E406B931E6D0CCA007D1127 /* KTLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E406B971E6D0CCA007D1127 /* KTLibsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTLibsUITests.m; sourceTree = "<group>"; };
 		6E406B991E6D0CCA007D1127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE824341E9E185300F006ED /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		6EE824351E9E185300F006ED /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		E0806D80B20F8BB9556D3063 /* Pods-KTLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLibs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTLibs/Pods-KTLibs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +176,7 @@
 		6E1C08311E700B36002C739F /* MyLibs */ = {
 			isa = PBXGroup;
 			children = (
+				6EE824331E9E17FD00F006ED /* UIButton+Block */,
 				6E1C08841E700E77002C739F /* KTDatePickerView */,
 				6E1C08321E700BA6002C739F /* GetCGFloatManager */,
 				6E1C08331E700BA6002C739F /* KTAFNNetRequest */,
@@ -380,6 +384,15 @@
 				6E406B991E6D0CCA007D1127 /* Info.plist */,
 			);
 			path = KTLibsUITests;
+			sourceTree = "<group>";
+		};
+		6EE824331E9E17FD00F006ED /* UIButton+Block */ = {
+			isa = PBXGroup;
+			children = (
+				6EE824341E9E185300F006ED /* UIButton+Block.h */,
+				6EE824351E9E185300F006ED /* UIButton+Block.m */,
+			);
+			path = "UIButton+Block";
 			sourceTree = "<group>";
 		};
 		97C21ADCE8E5D54BFD9853DD /* Frameworks */ = {
@@ -601,6 +614,7 @@
 				6E1C08691E700CB6002C739F /* PECropRectView.m in Sources */,
 				6E1C08771E700CB6002C739F /* QBImagePickerController.m in Sources */,
 				6E1C08721E700CB6002C739F /* QBAssetsCollectionOverlayView.m in Sources */,
+				6EE824361E9E185300F006ED /* UIButton+Block.m in Sources */,
 				6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */,
 				6E406B741E6D0CCA007D1127 /* main.m in Sources */,
 			);
