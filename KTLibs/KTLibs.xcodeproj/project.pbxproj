@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19005D8EA0BFAF0FB49C425C /* libPods-KTLibs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */; };
+		6E0E6B151EB0AB9200B6BF25 /* CacheClearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E6B141EB0AB9200B6BF25 /* CacheClearManager.m */; };
 		6E1C083A1E700C15002C739F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08391E700C15002C739F /* UIColor+Hex.m */; };
 		6E1C083D1E700C54002C739F /* KTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083C1E700C54002C739F /* KTUtils.m */; };
 		6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083F1E700CB6002C739F /* KTCropPhotoViewController.m */; };
@@ -65,6 +66,8 @@
 /* Begin PBXFileReference section */
 		5E73957EC4A22CEF82BFC767 /* Pods-KTLibs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLibs.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTLibs/Pods-KTLibs.release.xcconfig"; sourceTree = "<group>"; };
 		651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTLibs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0E6B131EB0AB9200B6BF25 /* CacheClearManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheClearManager.h; sourceTree = "<group>"; };
+		6E0E6B141EB0AB9200B6BF25 /* CacheClearManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheClearManager.m; sourceTree = "<group>"; };
 		6E1C08381E700C15002C739F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		6E1C08391E700C15002C739F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		6E1C083B1E700C54002C739F /* KTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtils.h; sourceTree = "<group>"; };
@@ -173,9 +176,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E0E6B121EB0AB7B00B6BF25 /* CacheClearManager */ = {
+			isa = PBXGroup;
+			children = (
+				6E0E6B131EB0AB9200B6BF25 /* CacheClearManager.h */,
+				6E0E6B141EB0AB9200B6BF25 /* CacheClearManager.m */,
+			);
+			path = CacheClearManager;
+			sourceTree = "<group>";
+		};
 		6E1C08311E700B36002C739F /* MyLibs */ = {
 			isa = PBXGroup;
 			children = (
+				6E0E6B121EB0AB7B00B6BF25 /* CacheClearManager */,
 				6EE824331E9E17FD00F006ED /* UIButton+Block */,
 				6E1C08841E700E77002C739F /* KTDatePickerView */,
 				6E1C08321E700BA6002C739F /* GetCGFloatManager */,
@@ -610,6 +623,7 @@
 				6E1C08801E700DA5002C739F /* KTAFNNetRequest.m in Sources */,
 				6E1C086A1E700CB6002C739F /* PECropView.m in Sources */,
 				6E1C08831E700E2F002C739F /* GetCGFloatManager.m in Sources */,
+				6E0E6B151EB0AB9200B6BF25 /* CacheClearManager.m in Sources */,
 				6E1C087A1E700CB6002C739F /* QBImagePickerThumbnailView.m in Sources */,
 				6E1C08691E700CB6002C739F /* PECropRectView.m in Sources */,
 				6E1C08771E700CB6002C739F /* QBImagePickerController.m in Sources */,
