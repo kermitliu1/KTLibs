@@ -40,6 +40,7 @@ PODS:
   - UIActionSheet+Blocks (0.9)
   - UIAlertController+Blocks (0.9.2)
   - UIAlertView+Blocks (0.9)
+  - ZYCornerRadius (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - RMUniversalAlert
   - SDWebImage (~> 3.8)
   - SVProgressHUD
+  - ZYCornerRadius (~> 1.0.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -67,7 +69,8 @@ SPEC CHECKSUMS:
   UIActionSheet+Blocks: e180b7dad0a721ab7f212ac9742af799008bb358
   UIAlertController+Blocks: 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
 
-PODFILE CHECKSUM: af2042e77648e54321a44a9cc5aa3a8c1f1cb42c
+PODFILE CHECKSUM: 3d369e4d52dff252855837ecfa72165b216b2f65
 
 COCOAPODS: 1.2.0
