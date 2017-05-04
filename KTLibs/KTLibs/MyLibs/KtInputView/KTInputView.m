@@ -171,7 +171,6 @@ CGFloat rightBtnHeight = 35;
 - (UIButton *)recordBtn {
     if (!_recordBtn) {
         _recordBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _recordBtn.backgroundColor = [UIColor whiteColor];
         _recordBtn.layer.borderWidth = 1;
         _recordBtn.layer.cornerRadius = 5;
         _recordBtn.layer.masksToBounds = YES;
@@ -186,8 +185,8 @@ CGFloat rightBtnHeight = 35;
         }];
         
         [_recordBtn setTitle:@"按住说话" forState:UIControlStateNormal];
-//        [_recordBtn setTitle:@"松开结束" forState:UIControlStateHighlighted];
-//        [_recordBtn setBackgroundImage:_IMG(@"voice_record_heighted") forState:UIControlStateHighlighted];
+        [_recordBtn setTitle:@"松开结束" forState:UIControlStateHighlighted];
+        [_recordBtn setBackgroundImage:_IMG(@"voice_record_heighted") forState:UIControlStateHighlighted];
         [_recordBtn setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
         _recordBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
 

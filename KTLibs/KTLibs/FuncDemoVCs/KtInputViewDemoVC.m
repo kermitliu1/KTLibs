@@ -9,11 +9,15 @@
 #import "KtInputViewDemoVC.h"
 #import "KTInputView.h"
 
+#import "KtAudioManager.h"
+
 @interface KtInputViewDemoVC ()
 <KtInputActionDelegate>
 {
     int _second;
     NSTimer * _timer;
+    
+    NSString * _filePath;
 }
 
 @property (nonatomic, strong) KTInputView * ktInputView;
@@ -82,18 +86,41 @@
 // MARK: KtInputActionDelegate
 - (void)onSendText:(NSString *)text {
     
+    [self addTimer];
+    
+    if (_filePath) {
+        [[KtAudioManager shareManager] playAudioWithPath:_filePath completion:^(NSError *error) {
+            
+            KTLog(@"播放完成");
+            [self closeTimer];
+            
+        }];
+    }
+
 }
 
 - (void)onCancelRecording {
     _second = 0;
     [self closeTimer];
     _ktInputView.recording = NO;
+    
+    [[KtAudioManager shareManager] cancelRecording];
 }
 
 - (void)onStopRecording {
-    _second = 0;
-    [self closeTimer];
-    _ktInputView.recording = NO;
+
+    
+    [[KtAudioManager shareManager] stopRecordingWithCompletion:^(NSString *recordPath, NSInteger duration, NSError *error) {
+        
+        _second = 0;
+        [self closeTimer];
+        _ktInputView.recording = NO;
+        
+        _filePath = recordPath;
+        KTLog(@"recordPath:%@\n duration:%.2ld",recordPath,(long)duration);
+        
+    }];
+    
 }
 
 - (void)onStartRecording {
@@ -102,24 +129,17 @@
     
     [self addTimer];
     
+    NSString * fileName = [NSString stringWithFormat:@"%lld.acc",(long long)[[NSDate date] timeIntervalSince1970]];
+    [[KtAudioManager shareManager] startRecordingWithFileName:fileName completion:^(NSError *error) {
+        
+    }];
     
-    //    NIMAudioType type = NIMAudioTypeAAC;
-    //    if ([self.sessionConfig respondsToSelector:@selector(recordType)])
-    //    {
-    //        type = [self.sessionConfig recordType];
-    //    }
-    
-//    NSTimeInterval duration = [NIMKitUIConfig sharedConfig].globalConfig.recordMaxDuration;
-//    
-//    [[[NIMSDK sharedSDK] mediaManager] addDelegate:self];
-//    
-//    [[[NIMSDK sharedSDK] mediaManager] record:NIMAudioTypeAAC
-//                                     duration:duration];
 }
 
 - (void)recording {
 
-    [_ktInputView updateAudioRecordTime:++_second];
+//    [_ktInputView updateAudioRecordTime:++_second];
+    KTLog(@"%d",++_second);
 
 }
 
