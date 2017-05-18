@@ -13,6 +13,7 @@
 
 @interface KTInputView : UIView
 
+@property (nonatomic, strong) YZInputView * inputView;
 
 /**
  *  是否正在录制，显示显示 KtInputAudioRecordIndicatorView 的判断

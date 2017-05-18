@@ -169,8 +169,7 @@ typedef NS_ENUM(NSUInteger, KtAudioSession) {
     return [KtAudioRecorderTool audioRecorder].recording;
 }
 #pragma mark - Private
--(NSError *)setupAudioSessionCategory:(KtAudioSession)session
-                             isActive:(BOOL)isActive{
+-(NSError *)setupAudioSessionCategory:(KtAudioSession)session isActive:(BOOL)isActive {
     BOOL isNeedActive = NO;
     if (isActive != _currActive) {
         isNeedActive = YES;
@@ -224,6 +223,17 @@ typedef NS_ENUM(NSUInteger, KtAudioSession) {
         ret = lowPassResults;
     }
     return ret;
+}
+- (NSDictionary *)getVideoInfoWithSourcePath:(NSString *)path {
+    
+    AVURLAsset * asset = [AVURLAsset assetWithURL:[NSURL fileURLWithPath:path]];
+    CMTime time = [asset duration];
+    int seconds = ceil(time.value/time.timescale);
+    
+    NSInteger fileSize = [[NSFileManager defaultManager] attributesOfItemAtPath:path error:nil].fileSize;
+    
+    return @{@"size" : @(fileSize),
+             @"duration" : @(seconds)};
 }
 
 // MARK: - audio play

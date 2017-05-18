@@ -63,6 +63,14 @@ typedef void(^ManagerPlayFinishCompletion)(NSError * error);
  *
  */
 - (float)recordPeakPower;
+/**
+ *  获取音频文件的 时长和大小
+ *
+ *  @param  path 路径
+ *  @return @{@"size":@(int),@"duration":@(int)}
+ *
+ */
+- (NSDictionary *)getVideoInfoWithSourcePath:(NSString *)path;
 
 /**
  *  播放录音

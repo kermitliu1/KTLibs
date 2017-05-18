@@ -60,6 +60,7 @@
 		6E34D5A51EBB07D70011381D /* KtRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34D5A31EBB07D70011381D /* KtRecordTool.m */; };
 		6E34D5A81EBB09D20011381D /* KtAudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34D5A71EBB09D20011381D /* KtAudioPlayerTool.m */; };
 		6E34D5AB1EBB16EC0011381D /* KtAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34D5AA1EBB16EC0011381D /* KtAudioManager.m */; };
+		6E34D5AE1EBB40540011381D /* KtInputSendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34D5AD1EBB40540011381D /* KtInputSendModel.m */; };
 		6E406B741E6D0CCA007D1127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B731E6D0CCA007D1127 /* main.m */; };
 		6E406B771E6D0CCA007D1127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B761E6D0CCA007D1127 /* AppDelegate.m */; };
 		6E406B7A1E6D0CCA007D1127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E406B791E6D0CCA007D1127 /* ViewController.m */; };
@@ -197,6 +198,8 @@
 		6E34D5A71EBB09D20011381D /* KtAudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KtAudioPlayerTool.m; sourceTree = "<group>"; };
 		6E34D5A91EBB16EC0011381D /* KtAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KtAudioManager.h; sourceTree = "<group>"; };
 		6E34D5AA1EBB16EC0011381D /* KtAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KtAudioManager.m; sourceTree = "<group>"; };
+		6E34D5AC1EBB40540011381D /* KtInputSendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KtInputSendModel.h; sourceTree = "<group>"; };
+		6E34D5AD1EBB40540011381D /* KtInputSendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KtInputSendModel.m; sourceTree = "<group>"; };
 		6E406B6F1E6D0CCA007D1127 /* KTLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E406B731E6D0CCA007D1127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E406B751E6D0CCA007D1127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -599,6 +602,8 @@
 				6E48C7821EB9E9EA00CA4124 /* DatePickerShowVC.h */,
 				6E48C77F1EB9E9EA00CA4124 /* KtInputViewDemoVC.h */,
 				6E48C7801EB9E9EA00CA4124 /* KtInputViewDemoVC.m */,
+				6E34D5AC1EBB40540011381D /* KtInputSendModel.h */,
+				6E34D5AD1EBB40540011381D /* KtInputSendModel.m */,
 			);
 			path = FuncDemoVCs;
 			sourceTree = "<group>";
@@ -859,6 +864,7 @@
 				6E1C086B1E700CB6002C739F /* PECropViewController.m in Sources */,
 				6E1C08711E700CB6002C739F /* QBAssetsCollectionFooterView.m in Sources */,
 				6E1C08751E700CB6002C739F /* QBAssetsCollectionViewController.m in Sources */,
+				6E34D5AE1EBB40540011381D /* KtInputSendModel.m in Sources */,
 				6E1C083D1E700C54002C739F /* KTUtils.m in Sources */,
 				6E48C7831EB9E9EA00CA4124 /* KtInputViewDemoVC.m in Sources */,
 				6E34D5A81EBB09D20011381D /* KtAudioPlayerTool.m in Sources */,

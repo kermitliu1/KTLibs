@@ -86,13 +86,8 @@
 // MARK: KtInputActionDelegate
 - (void)onSendText:(NSString *)text {
     
-    [self addTimer];
-    
     if (_filePath) {
         [[KtAudioManager shareManager] playAudioWithPath:_filePath completion:^(NSError *error) {
-            
-            KTLog(@"播放完成");
-            [self closeTimer];
             
         }];
     }
@@ -129,7 +124,7 @@
     
     [self addTimer];
     
-    NSString * fileName = [NSString stringWithFormat:@"%lld.acc",(long long)[[NSDate date] timeIntervalSince1970]];
+    NSString * fileName = [NSString stringWithFormat:@"%lld.aac",(long long)[[NSDate date] timeIntervalSince1970]];
     [[KtAudioManager shareManager] startRecordingWithFileName:fileName completion:^(NSError *error) {
         
     }];
@@ -138,9 +133,7 @@
 
 - (void)recording {
 
-//    [_ktInputView updateAudioRecordTime:++_second];
-    KTLog(@"%d",++_second);
-
+    [_ktInputView updateAudioRecordTime:++_second];
 }
 
 /**

@@ -28,7 +28,6 @@ CGFloat rightBtnHeight = 35;
 @property (nonatomic, assign) KtAudioRecordPhase recordPhase;
 @property (nonatomic, strong) KtInputAudioRecordIndicatorView *audioRecordIndicator;
 
-@property (nonatomic, strong) YZInputView * inputView;
 @property (nonatomic, strong) UIButton * leftBtn;
 @property (nonatomic, strong) UIButton * rightBtn;
 @property (nonatomic, strong) UIButton * recordBtn;
