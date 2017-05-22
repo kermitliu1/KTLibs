@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19005D8EA0BFAF0FB49C425C /* libPods-KTLibs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */; };
 		6E0E6B151EB0AB9200B6BF25 /* CacheClearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E6B141EB0AB9200B6BF25 /* CacheClearManager.m */; };
+		6E142CD11ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E142CD01ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.m */; };
 		6E1C083A1E700C15002C739F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C08391E700C15002C739F /* UIColor+Hex.m */; };
 		6E1C083D1E700C54002C739F /* KTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083C1E700C54002C739F /* KTUtils.m */; };
 		6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C083F1E700CB6002C739F /* KTCropPhotoViewController.m */; };
@@ -117,6 +118,8 @@
 		651B7F693A7F115B4E1F8862 /* libPods-KTLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTLibs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0E6B131EB0AB9200B6BF25 /* CacheClearManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheClearManager.h; sourceTree = "<group>"; };
 		6E0E6B141EB0AB9200B6BF25 /* CacheClearManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheClearManager.m; sourceTree = "<group>"; };
+		6E142CCF1ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImgAndTitleSet.h"; sourceTree = "<group>"; };
+		6E142CD01ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImgAndTitleSet.m"; sourceTree = "<group>"; };
 		6E1C08381E700C15002C739F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		6E1C08391E700C15002C739F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		6E1C083B1E700C54002C739F /* KTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtils.h; sourceTree = "<group>"; };
@@ -294,9 +297,19 @@
 			path = CacheClearManager;
 			sourceTree = "<group>";
 		};
+		6E142CCE1ED2FC0F008E43C0 /* UIButton+ImgAndTitle */ = {
+			isa = PBXGroup;
+			children = (
+				6E142CCF1ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.h */,
+				6E142CD01ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.m */,
+			);
+			path = "UIButton+ImgAndTitle";
+			sourceTree = "<group>";
+		};
 		6E1C08311E700B36002C739F /* MyLibs */ = {
 			isa = PBXGroup;
 			children = (
+				6E142CCE1ED2FC0F008E43C0 /* UIButton+ImgAndTitle */,
 				6E48C7311EB9E7EA00CA4124 /* KtInputView */,
 				6E0E6B121EB0AB7B00B6BF25 /* CacheClearManager */,
 				6EE824331E9E17FD00F006ED /* UIButton+Block */,
@@ -887,6 +900,7 @@
 				6E1C08771E700CB6002C739F /* QBImagePickerController.m in Sources */,
 				6E1C08721E700CB6002C739F /* QBAssetsCollectionOverlayView.m in Sources */,
 				6EE824361E9E185300F006ED /* UIButton+Block.m in Sources */,
+				6E142CD11ED2FC4A008E43C0 /* UIButton+ImgAndTitleSet.m in Sources */,
 				6E1C08671E700CB6002C739F /* KTCropPhotoViewController.m in Sources */,
 				6E406B741E6D0CCA007D1127 /* main.m in Sources */,
 			);
